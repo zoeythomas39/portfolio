@@ -1,0 +1,303 @@
+a:link{
+    color: #731B07;
+}
+a:hover{
+    background-color: #ECD1C1;
+}
+a:focus{
+    background-color: #731B07;
+    color: #ECD1C1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+nav ul li a {
+    display: block;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border-color: #731B07;
+} 
+
+h1{
+    color: #fff;
+    background-color: #731B07;
+    font-size: 6.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem;
+    font-family: "Lexend Peta", serif;
+}
+
+body{
+    margin: 0;
+    background-color: #000;
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #BF7B3F;
+    margin: 1rem 0;
+}
+
+.logoBox{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    /* padding: 0.5rem; */
+    gap: 0.5rem;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    /* margin: 0.5rem; */
+    margin: 0.5rem;
+}
+
+.logoBox img{
+    width: 20%;
+    padding: 0.25rem;
+}
+
+.graf{
+    width: 50%;
+    margin: 0.5rem;
+}
+
+.graf p{
+    max-width: 500px;
+    align-self: center;
+    justify-self: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #731B07;
+    color: #fff;
+}
+
+.graf p a:link{
+    color: #ECD1C1;
+}
+.graf p a:hover{
+    background-color: #ECD1C1;
+    color:#731B07;
+}
+.graf p a:focus{
+    color: #000;
+}
+
+.background img{
+    width: 50%;
+    /* padding: 0.5rem; */
+    margin: 0.5rem;
+}
+
+#agency{
+    background-color: #fff;
+}
+
+#alligator{
+    background-color: #fff;
+}
+
+/* #mullinax{
+    width: 90%;
+} */
+
+#news{
+    flex-direction: row-reverse;
+}
+
+.credit{
+text-align: center;
+color: #fff;
+}
+
+.samples{
+    font-weight: 1000;
+}
+
+#additional{
+    color: #fff;
+    text-align: center;
+}
+
+#additional a:link{
+    color: #ECD1C1;
+}
+
+
+#additional a:hover{
+    background-color: #731B07;
+}
+
+#additional a:focus{
+    background-color: #ECD1C1;
+    color:#731B07;
+}
+
+.divider{
+    font-family: "Lexend Peta", serif;
+    background-color: #ECD1C1;
+    font-weight: 600;
+}
+
+/* News */
+
+.headline{
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 1rem;
+    background-color:#ECD1C1;
+    padding: 0.5rem;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.newssample{
+    width: 30%;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: start;
+    background-color: #BF7B3F;
+}
+
+.newsgraf p{
+    max-width: 400px;
+    align-self: center;
+    justify-self: center;
+    background-color: #731B07;
+    color: #fff;
+    padding: 1rem;
+}
+
+.newsgraf p a:link{
+    color: #fff;
+}
+.newsgraf p a:hover{
+    color: #fff;
+    background-color: #BF7B3F;
+}
+.newsgraf p a:focus{
+    background-color: #BF7B3F;
+    color: #000;
+}
+.newsgraf p a:visited{
+    background-color: #731B07;
+    color: #ECD1C1;
+}
+
+/* copy samples */
+
+.credit a:link{
+    color: #ECD1C1;
+}
+.credit a:hover{
+    background-color: #ECD1C1;
+    color:#731B07;
+}
+.credit a:focus{
+    color: #000;
+}
+
+#copyhead{
+    font-size: 6rem;
+}
+
+/* contact */
+
+
+
+@media(max-width: 1000px){
+    .graf p{
+        font-size: 1rem;
+        max-width: 400px;
+    }
+    #copyhead{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 750px){
+    .newssample{
+        width: 45%;
+    }
+    #copyhead{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width: 600px){
+    .graf p{
+        max-width: 400px;
+        line-height: 1.25rem;
+    }
+    .section{
+        flex-direction: column;
+    }
+    #news{
+        flex-direction: column;
+    }
+    .background img{
+        width: 95%;
+    }
+    .graf{
+        width: 95%;
+    }
+    .logoBox{
+        width: 75%;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    nav ul li a{
+        margin: 0 0.5rem 0.5rem 0.5rem;
+    }
+    #copyhead{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 450px){
+    .newssample{
+        width: 100%;
+    }
+    #copyhead{
+        font-size: 1.5rem;
+    }
+}
